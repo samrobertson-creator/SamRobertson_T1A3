@@ -3,8 +3,6 @@ import help
 print(help)
 
 
-
-
 name = input("Hi there, welcome to Hotseat Millionaire, what is your name? ")
 print("Okay " + name + ", here is your first Question:")
 
@@ -86,7 +84,7 @@ questions = {
  "The largest internal organ in the human body is the what?": "A",
  "Which is the only animal capable of clapping to a musical beat?": "D",
  "What did the Famous Hollywood sign say before it was changed in 1949?": "B",
- "What percentage of American Adults believe chocolate milk originates from brown cows?": ''
+ "What percentage of American Adults believe chocolate milk originates from brown cows?": 'C'
 }
 
 options = [["A. Guido van Rossum", "B. Elon Musk", "C. Bill Gates", "D. Mark Zuckerburg"],
