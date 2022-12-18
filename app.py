@@ -3,6 +3,8 @@ import help
 print(help)
 
 
+
+
 name = input("Hi there, welcome to Hotseat Millionaire, what is your name? ")
 print("Okay " + name + ", here is your first Question:")
 
@@ -55,6 +57,12 @@ def display_score(correct_guesses, guesses):
     score = int((correct_guesses/len(questions))*100)
     print("Your score is: "+str(score)+"%!")
 
+    if score == 100:
+        print("Congratulations" + name + "! You won the grand prize of $1,000,000")
+
+    
+
+
 # -------------------------
 def play_again():
 
@@ -78,7 +86,7 @@ questions = {
  "The largest internal organ in the human body is the what?": "A",
  "Which is the only animal capable of clapping to a musical beat?": "D",
  "What did the Famous Hollywood sign say before it was changed in 1949?": "B",
- "What percentage of American Adults believe chocolate milk originates from brown cows?": 'D'
+ "What percentage of American Adults believe chocolate milk originates from brown cows?": ''
 }
 
 options = [["A. Guido van Rossum", "B. Elon Musk", "C. Bill Gates", "D. Mark Zuckerburg"],
