@@ -24,7 +24,7 @@ After the user enters their name, they are then asked their first question. Each
 
 ### Feature 3: Results
 
-
+As previously mentioned, the user is either scored correct or wrong after each question. If their guess matches the answer, the 'correct guesses' variable is then appended and given a +1. Once the user has finished all the questions, all the correct answers are displayed and underneath them are the user's guesses. This was done by using another for loop which retirievd the both the array index of the user's guesses and the correct answers.
 
 ## Implementation
 
