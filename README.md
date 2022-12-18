@@ -1,3 +1,31 @@
 # SamRobertson_T1A3
 
+## Python Quiz Application
+
+A basic quiz that tests your knowledge of random facts, and challenges the user to score 100%, and take home the gran prize of $1,000,000!
+
+
+
+## Running Program
+
 To launch this program, open your termianl or command line. After that type "python3" and them drag the file app.py into the terminal. After that hit enter and the application will be ran in terminal
+
+## Features
+
+### Feature 1: Interactive
+
+The program begins by providing help to the user with a brief explanation of how the program works and how to use it. Then the user is prompted to enter their name, which is stored as a variable under 'name' and is later used throughout the program.
+
+### Feature 2: Questions
+
+After the user enters their name, they are then asked their first question.
+
+### Feature 3: Results
+
+## Implementation
+
+Each of the key features were implemetned via the main programming concepts and structures required for this projects. Although it was briefly spoken about during the features it would be best to reiterate. Variables were used to store data such as the users name and their guesses. A while loop was utulised with the play_again feature, and nested for loops were used to match the correct question index with the correct options. Error handling was used mainly with the '.upper' function, no errors were found outside of that so 'try' and 'except' error handling methods were not necessary. Python imports were used for the help and colour packages. Finally, basic user input and output was used.
+
+## Error Handling
+
+No instances errors were found in the final program. In situations where the user is required to input, the function .upper was utilised to avoid any capitilation mistakes. Although the user is prompted to enter either a, b, c or d with each question, the user may input any answer and it will not print an error. This is because a dictionary is utlisied for the questions in the game, so each question has an answer key linked to it. However they will obvious get the question wrong if it is not equal to the answer key provided in the question dictionary.
