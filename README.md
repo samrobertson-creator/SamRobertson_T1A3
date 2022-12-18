@@ -1,10 +1,12 @@
 # SamRobertson_T1A3
 
+## Source Code Repository
+
+[https://github.com/samrobertson-creator/SamRobertson_T1A3]
+
 ## Python Quiz Application
 
 A basic quiz that tests your knowledge of random facts, and challenges the user to score 100%, and take home the gran prize of $1,000,000!
-
-
 
 ## Running Program
 
@@ -18,13 +20,15 @@ The program begins by providing help to the user with a brief explanation of how
 
 ### Feature 2: Questions
 
-After the user enters their name, they are then asked their first question.
+After the user enters their name, they are then asked their first question. Each question has 4 potential answers assigned to them, using a nested for loop and indexing each question number. They will read the question, and read the possible answers that are assigned to a given letter (either A, B, C or D). The program than checks your guess against the correct answer. If the user's guess matches the correct answer, they are told they are correct and the program takes them to the next question.
 
 ### Feature 3: Results
 
+
+
 ## Implementation
 
-Each of the key features were implemetned via the main programming concepts and structures required for this projects. Although it was briefly spoken about during the features it would be best to reiterate. Variables were used to store data such as the users name and their guesses. A while loop was utulised with the play_again feature, and nested for loops were used to match the correct question index with the correct options. Error handling was used mainly with the '.upper' function, no errors were found outside of that so 'try' and 'except' error handling methods were not necessary. Python imports were used for the help and colour packages. Finally, basic user input and output was used.
+Each of the key features were implemetned via the main programming concepts and structures required for this projects. Although it was briefly spoken about during the features it would be best to reiterate. Variables were used to store data such as the users name and their guesses. A while loop was utulised with the play_again feature, and nested for loops were used to match the correct question index with the correct options. Error handling was used mainly with the '.upper' function, no errors were found outside of that so 'try' and 'except' error handling methods were not necessary. Python imports were used for the help package. Finally, basic user input and output was used.
 
 ## Error Handling
 
