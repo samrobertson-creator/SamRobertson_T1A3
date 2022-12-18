@@ -12,5 +12,5 @@ print('Finally after all the questions have been answered, you will be given a p
 print('If the percentage is equal to 100, you win the grand prize of $1,000,000')
 print('If not you will be asked if you would like to attempt the quiz again')
 print('---------------------------------------------')
-print('Have fun')
+print('Have fun and good luck')
 print('---------------------------------------------')
